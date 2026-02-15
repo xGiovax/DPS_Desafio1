@@ -1,0 +1,26 @@
+body {
+  background: #f3f3f3;
+  font-family: Arial;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.contact {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.favorite {
+  border-left: 6px solid gold;
+  background: #fff8dc;
+}
+
+button {
+  margin-right: 5px;
+  margin-top: 5px;
+}
