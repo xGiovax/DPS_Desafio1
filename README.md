@@ -1,18 +1,29 @@
-# React + Vite
+# Aplicación de Lista de Contactos – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada en React que permite administrar una lista de contactos.  
+Fue creada como parte de un ejercicio práctico para aplicar el uso de: componentes, estado, props y manejo de archivos JSON.
 
-Currently, two official plugins are available:
+La aplicación creada permite realizar las siguientes acciones:
+- Agregar nuevos contactos
+- Mostrar todos los contactos
+- Eliminar contactos.
+- Marcar y quitar contactos como favoritos
+- Mostrar los favoritos al inicio de la lista
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contiene Tecnologías de tipo:
+- React (Vite)
+- JavaScript
+- HTML
+- CSS
 
-## React Compiler
+La instalación se realizó por medio de:
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+ Autores:
+Giovanni Alberto Ruano Martinez RM250065
+Fernando José Cornejo Solano CS250072
+Emerson Fabricio Arévalo Gonzáles AG250495
 
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
