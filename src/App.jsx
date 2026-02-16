@@ -12,6 +12,7 @@ function App() {
       .then(data => setContacts(data));
   }, []);
 
+  // Agrega un nuevo contacto a la lista
   const addContact = () => {
     if (!form.nombre || !form.apellido || !form.telefono) return;
 
